@@ -1,0 +1,44 @@
+# .gitattributes
+
+# Treat text files consistently across operating systems
+* text=auto
+
+# Markdown and documentation
+*.md text eol=lf
+
+# Rust source files
+*.rs text eol=lf
+
+# Configuration files
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.dylib binary
+*.so binary
+*.img binary
+*.dd binary
+*.raw binary
+*.E01 binary
+*.e01 binary

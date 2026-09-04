@@ -1,0 +1,56 @@
+# Rust build artifacts
+/target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test outputs
+test-output/
+test-results/
+
+# Recovery outputs
+recovered/
+recovery-output/
+evidence-output/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Spark and distributed-processing outputs
+spark-output/
+parquet-output/
+
+# Coverage and profiling outputs
+coverage/
+.profraw
+.profdata
+
+# Generated documentation and reports
+generated/
+reports/
